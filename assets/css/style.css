@@ -28,13 +28,42 @@
     height: 90px;
 }
 
-
-
-
-
-
-
-
+.debug .avatar{
+    background-color: #6125c0;
+    height: 90px;
+}
+.debug .title{
+    background-color: #131c36;
+    height: 90px;
+}
+.debug .star{
+    background-color: #61aa26;
+    height: 90px;
+}
+.debug .info_title{
+    background-color: #4f5549;
+    height: 90px;
+}
 
 
 /* #endregion debug */
+
+
+
+/* #region Main */
+
+section.title_avatar{
+    background-color: var(--green-);
+}
+
+
+
+
+
+
+
+
+
+/* #region Main */
+
+
