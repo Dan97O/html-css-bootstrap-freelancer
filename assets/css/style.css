@@ -8,7 +8,18 @@
     --main_bottom-: #3a546d;
 }
 
+li{
+    list-style: none;
 
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin-top: none !important; 
+}
 
 /* #region debug */
 
@@ -49,6 +60,18 @@
 /* #endregion debug */
 
 
+/* #region Header */
+header{
+    background-color: var(--header-);
+    color: var(--light-);
+}
+
+.link_header{
+    display: none;
+}
+/* #endregion Header */
+
+
 /* #region Main */
 
 section.title_avatar{
@@ -78,3 +101,22 @@ footer{
 /* #endregion Footer */
 
 
+/* #region Media */
+
+@media screen and (min-width: 576px) {
+    .header-right>nav{
+        display: none;
+    }
+    
+    .header-right .link_header{
+        display: flex;
+        align-items: center;
+        padding-top: 14px;
+    }
+}
+
+
+
+
+
+/* #endregion Media */
