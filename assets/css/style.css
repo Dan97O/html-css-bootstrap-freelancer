@@ -49,7 +49,6 @@
 /* #endregion debug */
 
 
-
 /* #region Main */
 
 section.title_avatar{
@@ -63,9 +62,19 @@ section.about{
 
 
 
+/* #endregion Main */
+
+
+/* #region Footer */
+
+
+footer{
+    background-color: var(--header-);
+    color: var(--light-);
+}
 
 
 
-/* #region Main */
+/* #endregion Footer */
 
 
