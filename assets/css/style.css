@@ -6,12 +6,6 @@
     --green-: #1abc9c;
     --light-: #ffffff;
     --main_bottom-: #3a546d;
-    --red-: #ba4b63;
-    --azure-: #1ea4b6;
-    --black-: #140f0f;
-    --lightblue-: #1c83c1;
-    --blue-: #0e38b5;
-    --brownish-: #ccb2a3;
 }
 
 
@@ -45,6 +39,11 @@
     height: 90px;
 }
 
+.debug [class^="col-"]{
+    background-color: aquamarine;
+    border: 1px dashed;
+    height: 100px;
+}
 
 /* #endregion debug */
 
