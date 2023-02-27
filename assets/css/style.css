@@ -45,6 +45,7 @@
     height: 100px;
 }
 
+
 /* #endregion debug */
 
 
@@ -54,7 +55,9 @@
 section.title_avatar{
     background-color: var(--green-);
 }
-
+section.about{
+    background-color: var(--green-);
+}
 
 
 
