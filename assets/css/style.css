@@ -82,7 +82,13 @@ section#about{
     color: var(--light-);
 }
 
+.image{
+    width: 300px;
+}
 
+.icons{
+    width: 100%;
+}
 
 .line{
     height: 5px;
