@@ -71,12 +71,13 @@ img{
 
 /* #region Main */
 
-section.title_avatar{
+section.title_avatar,
+section#about{
     background-color: var(--green-);
+    color: var(--light-);
 }
-section.about{
-    background-color: var(--green-);
-}
+
+
 
 .line{
     height: 5px;
@@ -117,17 +118,30 @@ footer{
 /* #region Media */
 
 @media screen and (min-width: 576px) {
-    .header-right>nav{
-        display: none;
+    .header a{
+        font-size: 25px;
     }
-    
-    .header-right .link_header{
-        display: flex;
-        align-items: center;
-        padding-top: 14px;
+    .title_avatar h1,
+    .title_avatar span
+    {
+        font-size: 30px;
     }
+
+  
 }
 
+@media screen and (max-width: 576px) {
+    
+    .header a{
+        font-size: 15px;
+    }
+    .title_avatar h1,
+    .title_avatar span
+    {
+        font-size: 15px;
+    }
+    
+}
 
 
 
