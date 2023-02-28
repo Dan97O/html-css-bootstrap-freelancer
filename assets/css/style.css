@@ -97,7 +97,10 @@ section#about{
     width: 10%;
 }
 
-
+.btn_green{
+    background-color: var(--green-);
+    color: var(--light-);
+}
 
 /* #endregion Main */
 
