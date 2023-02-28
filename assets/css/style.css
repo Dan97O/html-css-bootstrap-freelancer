@@ -21,6 +21,7 @@ img{
     max-width: 100%;
 }
 
+
 /* #region debug */
 
 .debug .header_left{
@@ -71,6 +72,10 @@ img{
 
 /* #region Main */
 
+.text_green{
+    color: var(--green-);
+}
+
 section.title_avatar,
 section#about{
     background-color: var(--green-);
@@ -102,6 +107,11 @@ section#about{
     color: var(--light-);
 }
 
+section.freelancer{
+    background-color: var(--main_bottom-);
+    color: var(--light-);
+}
+
 /* #endregion Main */
 
 
@@ -125,7 +135,10 @@ footer{
         font-size: 25px;
     }
     .title_avatar h1,
-    .title_avatar span
+    .title_avatar span,
+    #portfolio h3,
+    #about h3,
+    #contacts h3
     {
         font-size: 30px;
     }
@@ -139,7 +152,10 @@ footer{
         font-size: 15px;
     }
     .title_avatar h1,
-    .title_avatar span
+    .title_avatar span,
+    #portfolio h3,
+    #about h3,
+    #contacts h3
     {
         font-size: 15px;
     }
